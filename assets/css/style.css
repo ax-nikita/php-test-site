@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -8,7 +12,16 @@ body {
 header {
     background: #35424a;
     color: #ffffff;
-    padding: 10px 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav {
+    margin: 20px 0;
 }
 
 nav ul {
@@ -26,12 +39,27 @@ nav ul li a {
     text-decoration: none;
 }
 
+main {
+    padding: 20px;
+}
+
+form {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
 footer {
     text-align: center;
     padding: 10px 0;
     background: #35424a;
     color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
+
 p {
     margin: 10px 0;
     font-size: 16px;
