@@ -1,5 +1,6 @@
 <?php include 'includes/header.php'; ?>
 <h1>Контакты</h1>
+<p>Свяжитесь с нами, заполнив форму ниже:</p>
 <?php
 <form action="contact.php" method="post">
     <?php if (!empty($successMessage)) { echo "<p>$successMessage</p>"; } ?>
