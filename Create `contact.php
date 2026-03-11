@@ -9,7 +9,7 @@
 <body>
     <?php include 'includes/header.php'; ?>
     <h1>Контакты</h1>
-    <form method="post" action="">
+    <form method="post" action="contact.php">
         <label for="name">Имя:</label>
         <input type="text" id="name" name="name" required>
         <label for="email">Email:</label>
