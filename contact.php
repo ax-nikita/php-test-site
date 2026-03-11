@@ -1,7 +1,9 @@
 <?php include 'includes/header.php'; ?>
 <h1>Контакты</h1>
 <p>Свяжитесь с нами, заполнив форму ниже:</p>
-<?php
+<?php include 'includes/header.php'; ?>
+<h1>Контакты</h1>
+<p>Свяжитесь с нами, заполнив форму ниже:</p>
 <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
     <?php if (!empty($successMessage)) { echo "<p>$successMessage</p>"; } ?>
 <p>Свяжитесь с нами, заполнив форму ниже:</p>
