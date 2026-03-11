@@ -1,3 +1,4 @@
+<?php include 'includes/header.php'; ?>
 <h1>Контакты</h1>
 <form action="submit_contact.php" method="post">
 <p>Свяжитесь с нами, заполнив форму ниже:</p>
@@ -7,3 +8,4 @@
     <input type="email" id="email" name="email" required>
     <input type="submit" value="Отправить">
 </form>
+<?php include 'includes/footer.php'; ?>

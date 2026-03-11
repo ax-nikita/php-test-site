@@ -1,3 +1,5 @@
+<?php include 'includes/header.php'; ?>
 <h1>Добро пожаловать на наш сайт!</h1>
 <p>Это тестовый сайт на PHP для начинающих.</p>
 <p>Мы рады видеть вас на нашем сайте!</p>
+<?php include 'includes/footer.php'; ?>
