@@ -1,12 +1,10 @@
 <?php include 'includes/header.php'; ?>
 <h1>Контакты</h1>
 <p>Свяжитесь с нами, заполнив форму ниже:</p>
-<?php include 'includes/header.php'; ?>
 <h1>Контакты</h1>
 <p>Свяжитесь с нами, заполнив форму ниже:</p>
 <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
     <?php if (!empty($successMessage)) { echo "<p>$successMessage</p>"; } ?>
-<p>Свяжитесь с нами, заполнив форму ниже:</p>
     <label for="name">Имя:</label>
     <input type="text" id="name" name="name" required>
     <label for="email">Электронная почта:</label>

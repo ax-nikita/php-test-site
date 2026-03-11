@@ -6,9 +6,4 @@
     <li>Услуга 2</li>
     <li>Услуга 3</li>
 </ul>
-<ul>
-    <li>Услуга 1</li>
-    <li>Услуга 2</li>
-    <li>Услуга 3</li>
-</ul>
 <?php include 'includes/footer.php'; ?>
