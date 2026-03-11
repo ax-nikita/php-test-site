@@ -7,6 +7,7 @@
 </head>
 <body>
 <header>
+<p>Добро пожаловать на наш сайт!</p>
     <nav>
         <ul>
             <li><a href="index.php">Главная</a></li>
